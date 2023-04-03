@@ -10,3 +10,13 @@ for (const place of places){
 }
 // console.log(places);
 
+const liCollection = document.getElementsByTagName('li');
+// console.log(liCollection);
+for (const li of liCollection) {
+    // console.log(li.innerText);
+}
+const allHeadings = document.getElementsByTagName('h1');
+for (const li of allHeadings) {
+    // console.log(li.innerText);
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour of dom </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1> welcome to my website here </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur <br>
+            adipisicing elit. Accusantium nostrum similique <br>
+            corrupti quod quae deleniti mollitia illo debitis?</p>
+
+    </header>
+
+    <main>
+        <section>
+            <ul>
+                <h1 id="tit">
+                    hey how are
+                </h1>
+                <li class="importent-places">hello world how are you </li>
+                <li class="importent-places">helloe you </li>
+                <li class="importent-places">hello ld how are you </li>
+                <li class="importent-places">dommm dere va </li>
+            </ul>
+
+        </section>
+
+
+        <section>
+            <ul>
+                <h1 id="place-title">
+                    welcome to my dom awsome dom de baba innder text
+                </h1>
+                <li>one lines ago here </li>
+                <li>two lines ago here </li>
+                <li>three lines ago here </li>
+                <li>Four lines ago here </li>
+                <li>Five lines ago here </li>
+            </ul>
+        </section>
+    </main>
+
+
+</body>
+<script src="./js.js"></script>
+
+<script>
+
+
+
+
+    const liCollection = document.getElementsByTagName('li');
+    // console.log(liCollection);
+    for (const li of liCollection) {
+        // console.log(li.innerText);
+    }
+
+
+
+
+    const allHeadings = document.getElementsByTagName('h1');
+    for (const li of allHeadings) {
+        // console.log(li.innerText);
+    }
+
+</script>
+
+</html>
